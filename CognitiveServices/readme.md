@@ -12,7 +12,9 @@ To ensure that you are technically proficient with the Cognitive Services Face A
 
 > **Note**: Even if you are working in teams, it is recommended that each team member complete the core skill training exercises.  This will make sure that the entire team is ready to accomplish the Mission Objectives. 
 
-* <a target="_blank" href="https://www.microsoft.com/cognitive-services/en-us/face-api/documentation/get-started-with-face-api/GettingStartedwithFaceAPIinCSharp">Get Started with Face API in C#</a>
+* <a target="_blank" href="https://www.microsoft.com/cognitive-services/en-us/face-api/documentation/Tutorials/FaceAPIinCSharpTutorial">Get Started with Face API in C#</a>
+* <a target="_blank" href="https://www.microsoft.com/cognitive-services/en-us/face-api/documentation/Tutorials/FaceAPIinJavaForAndroidTutorial">Get Started with Face API in Java for Android Tutorial</a>
+* <a target="_blank" href="https://www.microsoft.com/cognitive-services/en-us/face-api/documentation/Tutorials/FaceAPIinPythonTutorial">Get Started with Face API in Python Tutorial</a>
 
 ____
 
