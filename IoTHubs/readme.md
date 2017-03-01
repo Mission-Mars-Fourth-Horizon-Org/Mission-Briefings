@@ -21,7 +21,7 @@ Before you can successfully communicate with the devices, you must first master 
     - C#: "<a target="_blank" href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-c2d/">How to send cloud-to-device messages with IoT Hub and .Net</a>"
     - Node.js: "<a target="_blank" href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-node-node-c2d/">How to send cloud-to-device messages with IoT Hub and Node.js</a>"
 
-    > **Note**: In the Node.js sample instructions you are told to install the `azure-iothub` npm package.  You must ALSO intsall the `azure-iot-common` npm package:
+    > **Note**: In the Node.js sample instructions you are told to install the `azure-iothub` npm package.  You must ALSO install the `azure-iot-common` npm package:
 
     ```text
     npm install azure-iothub --save
