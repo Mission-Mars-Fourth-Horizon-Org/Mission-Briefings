@@ -56,7 +56,7 @@ Since the Azure Functions quickstarts contain functional code, you can immediate
 
 	![](images/function-app-create-in-portal.png)
 
-1. Create a new function using a resource group and dynamic plan.
+1. Create a new function using a resource group and consumption plan.
 
 	![](images/function-app-portal-create-settings.png)
 
