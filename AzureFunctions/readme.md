@@ -60,15 +60,15 @@ Since the Azure Functions quickstarts contain functional code, you can immediate
 
 	![](images/function-app-portal-create-settings.png)
 
-1. The function app should be deployed in a minute or less. Select **Timer** and **C#** and click the **Create this function** button.
+1. The function app should be deployed in a minute or less. From the resource group overview, select the function app. Select **Timer** and **C#** and click the **Create this function** button. Select "Skip the tour and start coding" when the code window opens.
 
 	![](images/function-app-timer-csharp.png)
 
-1. Click on the ##Integrate## tab on the left to view the Timer settings. The default timer schedule is set to run the function once a minute, since the cron expression will match whenever the current second value is equal to zero
+1. Click on the **Integrate** item in the tree view to view the Timer settings. The default timer schedule is set to run the function once every 5 minutes, since the cron expression will match whenever the current minute value is equal to 5.
  
 	![](images/function-app-timer-cron-default.png)
 
-1. Change this *cron expression* value to run every 5 seconds by changing the first value from `0` to `*/5` (as shown below) and clicking the **Save** button.
+1. Change this *cron expression* value to run every 5 seconds by changing the first value from `0` to `*/5`, and the second value from `*/5` to `*` (as shown below) and clicking the **Save** button.
 
 	![](images/function-app-timer-cron-updated.png)
 
