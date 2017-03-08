@@ -1,4 +1,4 @@
-# MISSION GOAL : Remote Monitoring
+# MISSION GOAL : Repeating Signal
 
 Our connectivity to Mars is slowly coming back online, but we have not yet made contact with the crew. In order to automate our communication attempts, we’re going to set up a **repeating signal** which pings the Mars base at **regular intervals.
 
