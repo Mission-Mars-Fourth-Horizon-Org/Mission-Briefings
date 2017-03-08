@@ -52,7 +52,7 @@ Since the Azure Functions quickstarts contain functional code, you can immediate
 ---
 
 ### Objective 3: Create a new Timer Based Function in the Azure portal
-1. In the Azure portal, create a new Azure Function (New / Virtual Machines / Function App).
+1. In the Azure portal, create a new Azure Function (New / Compute / Function App).
 
 	![](images/function-app-create-in-portal.png)
 
