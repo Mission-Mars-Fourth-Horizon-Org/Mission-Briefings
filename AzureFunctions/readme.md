@@ -16,7 +16,7 @@ Your next task is to accomplish the following objectives:
 2.	Test the function
 3.	Create a new Timer Based Function in the Azure portal
 4.	Add an Azure Queue Storage output
-5.	Add a JavaScript function which Is triggered by the queue
+5.	Add a JavaScript function which is triggered by the queue
 
 
 ### Objective 1: Create a function from the quickstart
