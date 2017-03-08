@@ -31,7 +31,7 @@ Before you can create your first function, you need to have an active Azure acco
 
 3. In the **Quickstart** tab, click **WebHook + API** and **JavaScript**, then click **Create a function**. A new predefined Node.js function is created. 
 
-	![](images/function-app-quickstart-node-webhook.png)
+	![](images/ob2-testfunc-step1.png)
 
 4. (Optional) At this point in the quickstart, you can choose to take a quick tour of Azure Functions features in the portal.	Once you have completed or skipped the tour, you can test your new function by using the HTTP trigger.
 
