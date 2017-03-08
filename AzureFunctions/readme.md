@@ -47,7 +47,7 @@ Since the Azure Functions quickstarts contain functional code, you can immediate
 
     ![](images/ob2-testfunc-step2.png)
 
-3. To trigger execution of the same function from another browser window or tab, copy the **Function URL** value from the **Develop** tab and paste it in a browser address bar, then append the query string value `&name=yourname` and press enter. The same information is written to the logs and the browser displays the "hello" response as before.
+3. To trigger execution of the same function from another browser window or tab, copy the **Function URL** value, by clicking the "Get Function URL" link, and paste it in a browser address bar, then append the query string value `&name=yourname` and press enter. The same information is written to the logs and the browser displays the "hello" response as before.
 
 ---
 
