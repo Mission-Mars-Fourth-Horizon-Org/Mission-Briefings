@@ -1,6 +1,6 @@
 # MISSION GOAL : Remote Monitoring
 
-Our connectivity to Mars is slowly coming back online, but we have not yet made contact with the crew. In order to automate our communication attempts, we’re going to set up a repeating signal which pings the Mars base at regular intervals.
+Our connectivity to Mars is slowly coming back online, but we have not yet made contact with the crew. In order to automate our communication attempts, we’re going to set up a **repeating signal** which pings the Mars base at **regular intervals.
 
 You’ll use Azure functions to accomplish this task, and ensure that when the crew regains access to their equipment they’re aware of our concerns here on Earth. Let’s get to work. 
 
@@ -15,8 +15,8 @@ Your next task is to accomplish the following objectives:
 1.	Create a function from the quickstart
 2.	Test the function
 3.	Create a new Timer Based Function in the Azure portal
-4.	Add an Azure Storage Queue output
-5.	Add a Node Function Which Is Triggered By The Queue
+4.	Add an Azure Queue Storage output
+5.	Add a JavaScript function Which Is triggered by the queue
 
 
 ### Objective 1: Create a function from the quickstart
