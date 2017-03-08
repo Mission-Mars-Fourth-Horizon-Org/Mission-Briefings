@@ -10,6 +10,6 @@ Mission control has established the following three goals.
 
 [Establish A Connection](IoTHubs)
 
-[Remote Monitoring](AzureFunctions)
+[Repeating Signal](AzureFunctions)
 
 [Verify Crew](CognitiveServices)
