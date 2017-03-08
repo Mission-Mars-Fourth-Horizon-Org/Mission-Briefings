@@ -78,13 +78,13 @@ Since the Azure Functions quickstarts contain functional code, you can immediate
 
 ---
 
-### Objective 4: Adding an Azure Storage Queue output
+### Objective 4: Adding an Azure Queue Storage output
 
 1. Click back to the **Integrate** tab, then click the **New Output** button.
 
 	![](images/function-app-add-output.png)
 
-1. Select Azure Storage Queue on the list, then click the **Select** button.
+1. Select Azure Queue Storage on the list, then click the **Select** button.
 
 	![](images/function-app-add-storage-queue.png)
 
@@ -94,7 +94,7 @@ Since the Azure Functions quickstarts contain functional code, you can immediate
 
 > Note: The **Message parameter name** is important, since this will also be the name of the variable in the function code.
 
-1. Click the **Develop** tab and change your function to take an `out stringoutput` parameter and write to this value, as shown below. Click the **Save** button to save your changes.
+1. Click the **Develop** tab and change your function to take an `out string output` parameter and write to this value, as shown below. Click the **Save** button to save your changes.
 
    ```csharp
    using System;
@@ -110,7 +110,7 @@ Since the Azure Functions quickstarts contain functional code, you can immediate
 
 ### Objective 5: Adding a Node Function Which Is Triggered By The Queue
 
-1. Click the **+ New Function** button on the left side. Filter the Language to JavaScript and select `QueueTrigger - Node` from the list.
+1. Click the **+ New Function** button on the left side. Filter the Language to JavaScript and select `QueueTrigger - JavaScript` from the list.
 
 	![](images/function-app-add-queue-trigger.png)
 
