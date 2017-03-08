@@ -21,7 +21,7 @@ Your next task is to accomplish the following objectives:
 
 ### Objective 1: Create a function from the quickstart
 
-A function app hosts the execution of your functions in Azure. Follow these steps to create a new function app as well as the new function. The new function app is created with a default configuration. For an example of how to explicitly create your function app, see [the other Azure Functions quickstart tutorial](functions-create-first-azure-function-azure-portal.md).
+A function app hosts the execution of your functions in Azure. Follow these steps to create a new function app as well as the new function. The new function app is created with a default configuration. For an example of how to explicitly create your function app, see [the other Azure Functions quickstart tutorial](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function-azure-portal).
 
 Before you can create your first function, you need to have an active Azure account. If you don't already have an Azure account, [free accounts are available](https://azure.microsoft.com/free/).
 
