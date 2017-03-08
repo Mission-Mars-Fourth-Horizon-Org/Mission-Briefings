@@ -43,7 +43,9 @@ Since the Azure Functions quickstarts contain functional code, you can immediate
 
 	![](images/ob2-testfunc-step1.PNG)
 
-2. Scroll down to the **Request body** text box, change the value of the *name* property to your name, and click **Run**. You will see that execution is triggered by a test HTTP request, information is written to the streaming logs, and the "hello" response is displayed in the **Output**. 
+2. Expand the right-hand side bar, and click on the **Test** header. In the **Request body** text box, change the value of the *name* property to your name, and click **Run**. You will see that execution is triggered by a test HTTP request, information is written to the streaming logs, and the "hello" response is displayed in the **Output**. 
+
+    ![](images/ob2-testfunc-step2.PNG)
 
 3. To trigger execution of the same function from another browser window or tab, copy the **Function URL** value from the **Develop** tab and paste it in a browser address bar, then append the query string value `&name=yourname` and press enter. The same information is written to the logs and the browser displays the "hello" response as before.
 
