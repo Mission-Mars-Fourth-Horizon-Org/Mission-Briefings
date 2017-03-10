@@ -61,12 +61,8 @@ You will need to modify the code you created above to monitor messages on the sp
 
 | Item | Value |
 | ---- | ----- |
-| IoT Hub Host Name | `marsiot.azure-devices.net` |
 | Coffee Pot Device ID | `coffeepot` |
-| SAS Policy Name | `coffeeclient` |
-| SAS Policy Permissions | Service Connect |
-| SAS Policy Key | `FkwDl0J3LAI31zo0Q2ThLAXgIUlIhIY3kQUaIUDHgmU=` |
-| Complete coffeeclient Connection String | `HostName=marsiot.azure-devices.net;SharedAccessKeyName=coffeeclient;SharedAccessKey=FkwDl0J3LAI31zo0Q2ThLAXgIUlIhIY3kQUaIUDHgmU=` |
+| coffeeclient Connection String | Ask your on-site EMB Mission Specialist for the URL to copy the coffeeclient connection string from |
 
 Use the information above to modify the code in the "**Receive device-to-cloud messages**" task of core skills exercise as follows:
 
@@ -76,7 +72,9 @@ Use the information above to modify the code in the "**Receive device-to-cloud m
 
     - For **Node.js** it's in the `readdevicetocloudmessages\ReadDeviceToCloudMessages.js` file unless you named the folder or file something different.
 
-1. Use the "**Complete coffeeclient Connection String**" from above for the value of the `connectionString` variable.  The "**coffeeclient**" SAS Policy on the `marsiot` IoT Hub has "**Service Connect**" permissions. This means that it can connect to the "service" side (not the device side) of the Azure IoT Hub.  It can the listen for "device-to-cloud" messages from the device, or send "cloud-to-device" messages to the device. 
+1. Use the URL provided by your local EMB Mission Specialist to copy the "**coffeeclient Connection String**" needed to connect to the Mars IoT Hub.  Open the file at that URL, and copy the connection string from there.
+
+1. Use the "**coffeeclient Connection String**" copied  above as the value of the `connectionString` variable.  The "**coffeeclient**" SAS Policy on the IoT Hub has "**Service Connect**" permissions. This means that it can connect to the "service" side (not the device side) of the Azure IoT Hub.  It can the listen for "device-to-cloud" messages from the device, or send "cloud-to-device" messages to the device.
 
 1. Use a specific consumer group for your team.  Your consumer group name is your `teamxx` (all lower case) team name you retrieved previously
 
