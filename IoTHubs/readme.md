@@ -176,7 +176,7 @@ To ping the coffee pot:
 
     b. For **Node.js**, it is in the `SendCloudToDeviceMessage.js` file unless you named the file something else.
 
-2. Use the "**Complete coffeeclient Connection String**" from above for the value of the `connectionString` variable.
+2. Use the "**coffeeclient Connection String**" from above for the value of the `connectionString` variable.
 
     - For **.NET**:
 
