@@ -63,6 +63,7 @@ You will need to modify the code you created above to monitor messages on the sp
 | ---- | ----- |
 | Coffee Pot Device ID | `coffeepot` |
 | coffeeclient Connection String | Ask your on-site EMB Mission Specialist for the URL to copy the coffeeclient connection string from |
+| Team Number | The "teamxx" name retrieved above |
 
 Use the information above to modify the code in the "**Receive device-to-cloud messages**" task of core skills exercise as follows:
 
@@ -74,7 +75,21 @@ Use the information above to modify the code in the "**Receive device-to-cloud m
 
 1. Use the URL provided by your local EMB Mission Specialist to copy the "**coffeeclient Connection String**" needed to connect to the Mars IoT Hub.  Open the file at that URL, and copy the connection string from there.
 
-1. Use the "**coffeeclient Connection String**" copied  above as the value of the `connectionString` variable.  The "**coffeeclient**" SAS Policy on the IoT Hub has "**Service Connect**" permissions. This means that it can connect to the "service" side (not the device side) of the Azure IoT Hub.  It can the listen for "device-to-cloud" messages from the device, or send "cloud-to-device" messages to the device.
+1. Use the "**coffeeclient Connection String**" copied  above as the value of the `connectionString` variable.  
+
+    > **Note**: The "**coffeeclient**" SAS Policy on the IoT Hub has "**Service Connect**" permissions. This means that it can connect to the "service" side (not the device side) of the Azure IoT Hub.  It can the listen for "device-to-cloud" messages from the device, or send "cloud-to-device" messages to the device.
+
+    - For **.NET**:
+
+        ```c#
+        static string connectionString = "HostName=marsiotxxx...;SharedAccessKeyName=coffeeclient;SharedAccessKey=...=";
+        ```
+
+    - For **Node.js**:
+
+        ```js
+        var connectionString = 'HostName=marsiotxxx...;SharedAccessKeyName=coffeeclient;SharedAccessKey=...=';
+        ```
 
 1. Use a specific consumer group for your team.  Your consumer group name is your `teamxx` (all lower case) team name you retrieved previously
 
@@ -162,6 +177,18 @@ To ping the coffee pot:
     b. For **Node.js**, it is in the `SendCloudToDeviceMessage.js` file unless you named the file something else.
 
 2. Use the "**Complete coffeeclient Connection String**" from above for the value of the `connectionString` variable.
+
+    - For **.NET**:
+
+        ```c#
+        static string connectionString = "HostName=marsiotxxx...;SharedAccessKeyName=coffeeclient;SharedAccessKey=...=";
+        ```
+
+    - For **Node.js**:
+
+        ```js
+        var connectionString = 'HostName=marsiotxxx...;SharedAccessKeyName=coffeeclient;SharedAccessKey=...=';
+        ```
 
 3. Use the `coffeepot` device id for the target device instead of the `myFirstDevice` (for .NET) or `myFirstNodeDevice` (for Node.js).
 
