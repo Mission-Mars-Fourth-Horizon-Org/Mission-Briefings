@@ -12,9 +12,9 @@ To ensure that you are technically proficient with the Cognitive Services Face A
 
 > **Note**: Even if you are working in teams, it is recommended that each team member complete the core skill training exercises.  This will make sure that the entire team is ready to accomplish the Mission Objectives. 
 
-* <a target="_blank" href="https://www.microsoft.com/cognitive-services/en-us/face-api/documentation/Tutorials/FaceAPIinCSharpTutorial">Get Started with Face API in C#</a>
-* <a target="_blank" href="https://www.microsoft.com/cognitive-services/en-us/face-api/documentation/Tutorials/FaceAPIinJavaForAndroidTutorial">Get Started with Face API in Java for Android Tutorial</a>
-* <a target="_blank" href="https://www.microsoft.com/cognitive-services/en-us/face-api/documentation/Tutorials/FaceAPIinPythonTutorial">Get Started with Face API in Python Tutorial</a>
+* <a target="_blank" href="https://aka.ms/face-cs">Get Started with Face API in C#</a> (<a target="_blank" href="https://aka.ms/face-cs">https://aka.ms/face-cs</a>)
+* <a target="_blank" href="https://aka.ms/face-py">Get Started with Face API in Python Tutorial</a> (<a target="_blank" href="https://aka.ms/face-py">https://aka.ms/face-py</a>)
+* <a target="_blank" href="https://aka.ms/face-jv">Getting Started with Face API in Java for Android Tutorial</a> (<a target="_blank" href="https://aka.ms/face-jv">https://aka.ms/face-jv</a>)
 
 ____
 
@@ -35,7 +35,7 @@ In addition, our telemetry is showing some odd data… either our sensors are on
 
 ### To verify the crew status:
 
-1. Use a copy of the photo recently retrieved from the Mars base monitoring camera here: [Crew Photo](images/CrewPhoto.jpg)
+1. Use a copy of the photo recently retrieved from the Mars base monitoring camera here: <a target="_blank" href="https://aka.ms/fourthhorizoncrewphoto">Crew Photo</a> (<a target="_blank" href="https://aka.ms/fourthhorizoncrewphoto">https://aka.ms/fourthhorizoncrewphoto</a>)
 
 1. Upload the photo to congitive services using the application you created in the core skills training exercise above.
 
