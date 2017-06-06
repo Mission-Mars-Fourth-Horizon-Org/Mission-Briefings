@@ -15,6 +15,7 @@ To ensure that you are technically proficient with the Cognitive Services Face A
 * <a target="_blank" href="https://aka.ms/face-cs">Get Started with Face API in C#</a> (<a target="_blank" href="https://aka.ms/face-cs">https://aka.ms/face-cs</a>)
 * <a target="_blank" href="https://aka.ms/face-py">Get Started with Face API in Python Tutorial</a> (<a target="_blank" href="https://aka.ms/face-py">https://aka.ms/face-py</a>)
 * <a target="_blank" href="https://aka.ms/face-jv">Getting Started with Face API in Java for Android Tutorial</a> (<a target="_blank" href="https://aka.ms/face-jv">https://aka.ms/face-jv</a>)
+* <a target="_blank" href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/face-api-how-to-topics/howtoidentifyfacesinimage">Getting Started with Face API and Person Group in C#</a>
 
 ____
 
